@@ -2,7 +2,7 @@
 
 rm board*
 rm mov.mp4
-echo "old board's removed"
+echo "old files removed"
 echo "running model..."
 python3 spatial_interaction_model.py
 echo "COMPLETE - Modelling"
