@@ -2,7 +2,7 @@
 
 Each cell is either alive (yellow) or dead (purple) and interacts with its eight surrounding neighbors
 
-Underpopulation: Any live cell with < 2 live neighbors dies.\n
+Underpopulation: Any live cell with < 2 live neighbors dies.
 Survival: Any live cell with 2-3 live neighbors stays alive.
 Overpopulation: Any live cell with > 3 live neighbors dies.
 Reproduction: Any dead cell with exactly 3 live neighbors becomes a live cell.
