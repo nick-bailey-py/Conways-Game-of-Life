@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+rm board*
+rm *.mp4
+echo "old board's removed"
+echo "running model..."
+python3 spatial_interaction_model.py
+echo "COMPLETE - Modelling"
+echo "running movie..."
+python3 mov.py
+echo "COMPLETE"
