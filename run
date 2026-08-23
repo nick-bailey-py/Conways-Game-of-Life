@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 rm board*
-rm *.mp4
+rm mov.mp4
 echo "old board's removed"
 echo "running model..."
 python3 spatial_interaction_model.py
